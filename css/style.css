@@ -1,0 +1,616 @@
+.bg-image{
+    background-image: url(../img/Uloome-Ahlebait_as.png);
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+.aat_common .actiity_main {
+    width: 100%;
+    display: inline-block;
+    padding: 25px;
+    box-shadow: 0px 0px 21px -5px rgba(0, 0, 0, 0.57);
+    border-radius: 7px;
+    border-bottom: 9px solid #795548;
+    max-width: -webkit-fill-available;
+    background: #ffbc0066;
+    height: 100vh;
+}
+.no-mlf{
+    margin-left: 0!important;
+}
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+}
+.aat_common .actiity_main .activity_heading {
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    max-width: -webkit-fill-available;
+    border-radius: 25px;
+    position: relative;
+}
+
+.logo {
+    width: 170px;
+    position: absolute;
+    right: 15px;
+    top: 4px;
+}
+
+.aat_common .actiity_main .activity_heading h2 {
+    padding-left: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #3b3a3c;
+    margin-top: 0;
+}
+
+.aat_common .actiity_main .activity_heading h2:before {
+    position: absolute;
+    top: 18%;
+    left: 0;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #67cb50;
+    border-radius: 50%;
+}
+
+.aat_common .actiity_main .activity_heading p {
+    font-size: 18px;
+    color: #f63f27;
+    font-weight: bold;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 0px;
+}
+
+.aat_common .actiity_main .activity_select {
+    width: 100%;
+    display: inline-block;
+    border-top: 5px solid #853d0d;
+    border-radius: 25px;
+}
+
+.aat_common .actiity_main .activity_select p {
+    font-weight: bold;
+    position: relative;
+    color: #83380a;
+}
+
+.drgable-content {
+    margin: 20px 0 20px 13px;
+}
+
+.activity_select>p {
+    font-size: 25px;
+}
+
+.aat_common .actiity_main .activity_select .answer_select {
+    width: 100%;
+    padding: 0px 25px;
+}
+
+.aat_common .actiity_main .activity_select .tf_answer {
+    padding: 0px 25px 0px 0px !important;
+}
+
+.aat_common .actiity_main .activity_select .answer_select label {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.aat_common .actiity_main .activity_select .tf_answer label {
+    margin-bottom: 5px !important;
+}
+
+.fillinblank_button {
+    width: 135px;
+    background-color: #bf9002;
+    text-align: center;
+    color: #a3a3a3;
+    color: #fff;
+    padding: 13px 0px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-left: 4%;
+    margin-top: 20px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    border-radius: 25px 25px;
+    box-shadow: 3px 2px 20px #000000d6;
+    outline: none;
+    -webkit-appearance: none;
+    border: none;
+}
+
+.no-area {
+    width: auto;
+    padding: 0;
+}
+
+.alignBtn {
+    position: relative;
+    top: -20px;
+}
+
+.no-area label {
+    padding: 30px;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.fillinblank_button:hover {
+    background-color: #795548;
+    box-shadow: 3px 3px 10px #000;
+}
+
+.aat_common .actiity_main .answer_section {
+    width: 100%;
+    display: inline-block;
+    display: none;
+    text-align: center;
+    background-color: #c9a861;
+    border-radius: 25px;
+    max-width: -webkit-fill-available;
+    position: absolute;
+    width: 95%;
+    left: 0;
+    height: 215px;
+    margin: auto;
+    top: 510px;
+    right: 0;
+}
+
+.aat_common .actiity_main .answer_section h2 {
+    color: #fc2614;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.aat_common .actiity_main .answer_section h3 {
+    font-size: 17px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #505152;
+}
+
+.aat_common .actiity_main .answer_section ol li {
+    font-size: 25px;
+}
+
+.aat_common .actiity_main .answer_section .fillinblank_button {
+    color: #795548;
+    color: #fff;
+}
+
+.aat_common .actiity_main .answer_section ol li,
+.aat_common .actiity_main .answer_section ul li {
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.aat_common .actiity_main .tf_answer ol li,
+.aat_common .actiity_main .tf_answer ul li {
+    margin-top: 20px;
+    list-style-type: upper-latin;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.aat_common .actiity_main .answer_section .b-col ol li {
+    color: #252327 !important;
+    margin-top: 0px !important;
+}
+
+.aat_common .actiity_main .activity_select .drag-dropp {
+    width: 100%;
+}
+
+.aat_common .actiity_main .activity_select .drag-dropp ul {
+    color: #252327;
+}
+
+.aat_common .actiity_main .activity_select .drag-dropp ul li {
+    list-style-type: none;
+    color: #252327;
+    position: relative;
+}
+
+.aat_common .actiity_main .activity_select .drag-dropp ul li p {
+    color: #252327;
+    margin: 30px 0px;
+    position: relative;
+    left: -30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aat_common .actiity_main .activity_select .drgable-content ul {
+    padding-left: 50px;
+}
+
+.aat_common .actiity_main .activity_select .drgable-content ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px !important;
+}
+
+.aat_common .actiity_main .activity_select .drgable-content .drag-text {
+    width: 20%;
+    float: left;
+    padding-left: 40px;
+    margin: 0px 0px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px !important;
+    position: relative;
+    color: #565657;
+    cursor: pointer;
+}
+
+.aat_common .actiity_main .activity_select .drgable-content .drag-text:before {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #565657;
+    position: absolute;
+    content: "";
+    top: 35%;
+    left: 5%;
+}
+
+.spacing_text {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    color: #252327;
+}
+
+.options p {
+    width: 100%;
+}
+
+#options {
+    height: 140px;
+}
+
+.cancel_btn {
+    margin-left: 10px;
+}
+
+
+/* dash */
+
+.ui-droppable {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 20%;
+    height: 60px;
+    border: 1px solid #959595;
+    text-align: center;
+    font-size: 35px;
+    line-height: 70px;
+    color: #565657;
+}
+
+.drag-dropp p {
+    height: 140px;
+}
+
+.selected_answer10 {
+    left: 0;
+    top: 61px;
+}
+
+.selected_answer9 {
+    left: 20%;
+    top: 61px;
+}
+
+.selected_answer8 {
+    left: 40%;
+    top: 61px;
+}
+
+.selected_answer7 {
+    left: 60%;
+    top: 61px;
+}
+
+.selected_answer6 {
+    left: 80%;
+    top: 61px;
+}
+
+.selected_answer5 {
+    left: 0;
+}
+
+.selected_answer4 {
+    left: 20%;
+}
+
+.selected_answer3 {
+    left: 40%;
+}
+
+.selected_answer2 {
+    left: 60%;
+}
+
+.selected_answer1 {
+    left: 80%;
+}
+
+
+/* stop watch css here */
+
+.container {
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    width: 400px;
+    right: 240px;
+    top: 20px;
+}
+
+.timer {
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+}
+.timeout{
+    display: none;
+}
+.timeout h2 {
+    color: #f63f27!important;
+    font-size: 30px!important;
+    position: relative!important;
+    top: -36px;
+    left: -16px;
+    background: #f3f4f6;
+}
+
+.cell {
+    /*Should only display 1 digit. Hence height = line height of .numbers
+and width = width of .numbers*/
+    width: 0.60em;
+    height: 40px;
+    font-size: 50px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.numbers {
+    width: 0.6em;
+    line-height: 40px;
+    font-family: digital, arial, verdana;
+    text-align: center;
+    color: #bf9002;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*Glow to the text*/
+    text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}
+
+
+/*Styles for the controls*/
+
+#timer_controls {
+    margin-top: -5px;
+}
+
+#timer_controls label {
+    cursor: pointer;
+    padding: 5px 10px;
+    background: #efefef;
+    font-family: arial, verdana, tahoma;
+    font-size: 11px;
+    border-radius: 0 0 3px 3px;
+}
+
+input[name="controls"] {
+    display: none;
+}
+
+
+/*Control code*/
+
+.no-display,
+#drag-dropp {
+    display: none;
+}
+
+#stop:checked~.timer .numbers {
+    animation-play-state: paused;
+}
+
+#start:checked~.timer .numbers {
+    animation-play-state: running;
+}
+
+#reset:checked~.timer .numbers {
+    animation: none;
+}
+
+.moveten {
+    /*The digits move but dont look good. We will use steps now
+10 digits = 10 steps. You can now see the digits swapping instead of 
+moving pixel-by-pixel*/
+    animation: moveten 1s steps(10, end) infinite;
+    /*By default animation should be paused*/
+    animation-play-state: paused;
+}
+
+.movesix {
+    animation: movesix 1s steps(6, end) infinite;
+    animation-play-state: paused;
+}
+
+
+/*Now we need to sync the animation speed with time speed*/
+
+
+/*One second per digit. 10 digits. Hence 10s*/
+
+.second {
+    animation-duration: 10s;
+}
+
+.tensecond {
+    animation-duration: 60s;
+}
+
+
+/*60 times .second*/
+
+.milisecond {
+    animation-duration: 1s;
+}
+
+
+/*1/10th of .second*/
+
+.tenmilisecond {
+    animation-duration: 0.1s;
+}
+
+.hundredmilisecond {
+    animation-duration: 0.01s;
+}
+
+.minute {
+    animation-duration: 600s;
+}
+
+
+/*60 times .second*/
+
+.tenminute {
+    animation-duration: 3600s;
+}
+
+
+/*60 times .minute*/
+
+.hour {
+    animation-duration: 36000s;
+}
+
+
+/*60 times .minute*/
+
+.tenhour {
+    animation-duration: 360000s;
+}
+
+
+/*10 times .hour*/
+
+@keyframes moveten {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -400px;
+    }
+    /*height = 40. digits = 10. hence -400 to move it completely to the top*/
+}
+
+@keyframes movesix {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -240px;
+    }
+    /*height = 40. digits = 6. hence -240 to move it completely to the top*/
+}
+
+
+@media only screen and (max-width: 768px) {
+ h2{
+     font-size: 12px;
+ }   
+ .logo{
+     width: 90px;
+     margin-top: 10px;
+ }
+ .no-area label{
+    font-size: 14px;
+    padding: 20px;
+    line-height: 35px;
+ }
+ button{
+     display: block;
+ }
+ .fillinblank_button {
+    font-size: 16px;
+    width: 100px;
+    line-height: 14px;
+}
+.aat_common .actiity_main .answer_section .fillinblank_button{
+    display: inline-block;
+}
+.aat_common .actiity_main .answer_section{
+    top: auto;
+    height: auto;
+    bottom: -49px;
+    padding: 20px 0px;
+}
+.aat_common .actiity_main .answer_section ol li, .aat_common .actiity_main .answer_section ul li{
+    font-size: 24px;
+}
+.answer_section ol{
+    padding: 0;
+}
+.container{
+    right: 0;
+    top: 8px;
+}
+ .aat_common .actiity_main .activity_heading h2{
+     margin-top: 35px;
+ }
+ .aat_common .actiity_main .activity_heading p, .aat_common .actiity_main .activity_heading h2{
+     font-size: 14px;
+ }
+ .activity_select>p{
+     font-size: 16px;
+ }
+ .text-center{
+     margin-top: 20px;
+ }
+ .aat_common .actiity_main .activity_select{
+     height: 100%;
+ }
+ .aat_common .actiity_main .activity_select .drgable-content .drag-text{
+     padding-left: 30px;
+     width: 35%;
+     font-size: 20px!important;
+ }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang='en' class=''>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <div class="aat_common">
+        <div class="actiity_main">
+            <div class="flex">
+                <h2>صلي ألله عليك يا ولي العصر (عج) ادركنا</h2>
+                <h2>بسم الله الرحمن الرحيم </h2>
+            </div>
+            <div class="activity_heading">
+                <h2>Fill the blank space with ayat at its proper place</h2>
+                <p>Tip - Complete the blanks by dragging the Ayat from the options given</p>
+                <div class="container">
+                    <!-- time to add the controls -->
+                    <input id="start" name="controls" type="radio" />
+                    <input id="stop" name="controls" type="radio" />
+                    <input id="reset" name="controls" type="radio" />
+                    <div class="timer">
+                        <div class="cell">
+                            <div class="numbers tenminute movesix">0 1 2 3</div>
+                        </div>
+                        <div class="cell">
+                            <div class="numbers minute moveten">2 1 0</div>
+                        </div>
+                        <div class="cell divider">
+                            <div class="numbers">:</div>
+                        </div>
+                        <div class="cell">
+                            <div class="numbers tensecond movesix">5 4 3 2 1 0</div>
+                        </div>
+                        <div class="cell">
+                            <div class="numbers second moveten">9 8 7 6 5 4 3 2 1 0</div>
+                        </div>
+                        <div class="timeout">
+                            <h2>Time Out</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="home.html"> <img src="img/logo.jpg" alt="" class="logo"></a>
+            </div>
+            <div class="activity_select">
+                <p>1) Surah e Al-Ma'ida, Ayat no. 3 <button id="loadpop" class="fillinblank_button no-area" onclick="start()"> <label for="start">Start</label></button>
+                    <button class="fillinblank_button no-area" onclick="ans()"> <label for="stop">Submit</label></button>
+
+                    <button id="fillinblank_button" class="fillinblank_button no-display">Answer</button>
+                    <a href="home.html"> <img src="img/Uloome-Ahlebait_as_Logo.png" alt="" class="logo"></a>
+                </p>
+                <div id="drag-dropp">
+                    <div class="drag-dropp">
+                        <ul>
+                            <li>
+                                <p>
+                                    <span class="selected_answer10 ui-droppable" id="enable-true1"></span>
+                                    <span class="selected_answer9 ui-droppable" id="enable-true1"></span>
+                                    <span class="selected_answer8 ui-droppable" id="enable-true1"></span>
+                                    <span class="selected_answer7 ui-droppable" id="enable-true1"></span>
+                                    <span class="selected_answer6 ui-droppable" id="enable-true1"></span>
+                                    <span class="selected_answer5 ui-droppable" id="enable-true1"></span>
+                                    <span class="selected_answer4 ui-droppable" id="enable-true1"></span>
+                                    <span class="selected_answer3 ui-droppable" id="enable-true1"></span>
+                                    <span class="selected_answer2 ui-droppable" id="enable-true1"></span>
+                                    <span class="selected_answer1 ui-droppable" id="enable-true1"></span>
+                                    <span class="spacing_text"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="drgable-content">
+                        <div id="options">
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-4" order="3">وَأَتمَمتُ<i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-10" order="9">دينًا<i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-5" order="4">عَلَيكُم<i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-8" order="7">لَكُمُ<i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-2" order="1">أَكمَلتُ<i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-3" order="4">لَكُم دينَكُم <i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-6" order="5">نِعمَتي<i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-9" order="8">الإِسلامَ<i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-1" order="0">اليَومَ<i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                            <div class="drag-text ui-draggable ui-draggable-handle" id="ca-7" order="6">وَرَضيتُ<i class="fa fa-times cancel_btn" style="display:none"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="answer_section">
+                    <h2>Answer</h2>
+                    <ol>
+                        <li>اليَومَ أَكمَلتُ لَكُم دينَكُم وَأَتمَمتُ عَلَيكُم نِعمَتي وَرَضيتُ لَكُمُ الإِسلامَ دينًا</li>
+                    </ol>
+                    <a href="home.html"><button class="fillinblank_button no-mlf" value="home"> Home</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/custom.js"></script>
+</body>
+
+
+</html>
